@@ -1,0 +1,52 @@
+[2025-01-22 04:58:24] Request started
+[2025-01-22 04:58:24] POST data: Array
+(
+    [mood] => joy
+    [language] => hindi
+)
+
+[2025-01-22 04:58:24] FILES data: Array
+(
+    [fileUpload] => Array
+        (
+            [name] => Shaggy vs Baar Baar Dekho - It Wasn't Kala Chashma.mp3
+            [full_path] => Shaggy vs Baar Baar Dekho - It Wasn't Kala Chashma.mp3
+            [type] => audio/mpeg
+            [tmp_name] => C:\xampp\tmp\php5254.tmp
+            [error] => 0
+            [size] => 9324707
+        )
+
+)
+
+[2025-01-22 04:58:24] Processing files structure
+[2025-01-22 04:58:24] Single file detected
+[2025-01-22 04:58:24] Number of files to process: 1
+[2025-01-22 04:58:24] Processing file 0: Shaggy vs Baar Baar Dekho - It Wasn't Kala Chashma.mp3
+[2025-01-22 04:58:24] Attempting to move file to: uploads/67906ce083b13.mp3
+[2025-01-22 04:58:24] File moved successfully. URL: http://180.235.121.245/emotiwave/uploads/67906ce083b13.mp3
+[2025-01-22 04:58:24] File successfully inserted into database: Shaggy vs Baar Baar Dekho - It Wasn't Kala Chashma.mp3
+[2025-01-22 04:58:24] Final response: Array
+(
+    [status] => success
+    [message] => Songs uploaded successfully!
+    [songs] => Array
+        (
+            [0] => Array
+                (
+                    [name] => Shaggy vs Baar Baar Dekho - It Wasn't Kala Chashma.mp3
+                    [path] => http://180.235.121.245/emotiwave/uploads/67906ce083b13.mp3
+                )
+
+        )
+
+    [language] => hindi
+    [debug] => Array
+        (
+            [total_files_received] => 1
+            [files_processed] => 1
+            [had_errors] => 
+        )
+
+)
+
